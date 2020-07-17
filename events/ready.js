@@ -1,5 +1,5 @@
 const { yellow, green } = require('chalk')
-const allowedNames = ['sakurajima mai','mai sakurajima','mai-san','mai-san\'s maid','mai-senpai','mai']
+const allowedNames = ['fishy','mai sakurajima','mai-san','mai-san\'s maid','mai-senpai','mai']
 const { ready } = require('../utils/anischedule/main.js')
 const { user : { owner } } = require('../settings.json')
 const { loadguilddata } = require('../utils/pointsystem/main.js')
