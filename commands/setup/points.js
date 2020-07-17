@@ -28,7 +28,7 @@ module.exports = {
 
 		let data = await gprofile.findOne({ guildID: message.guild.id }).catch(()=>{})
 
-	  if (!data) data = await new gprofile({ guildID: message.guild.id, welcomeChannel: null, welcomemsg:null, goodbyeChannel: null, goodbyemsg: null, isxpActive: false, xpExceptions:[], iseconomyActive: false }).save()
+	  if (!data) data = await new gprofile({ guildID: message.guild.id, welcomeChannel: null, welcomemsg:null, goodbyeChannel: null, goodbyemsg: null, isxpActive: true, xpExceptions:[], iseconomyActive: true }).save()
 
 	  if (!data) return message.channel.send(error('[POINTSYSTEM_ERROR]: Unable to connect to database...'))
 
