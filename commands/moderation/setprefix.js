@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const settings = require("./../botconfig.json");
+const settings = require("./../settings.json");
 const timeout = settings.timeout;
 const fs = require ("fs");
 const setprefixstat = new Set();
