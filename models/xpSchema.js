@@ -10,8 +10,8 @@ const xp = mongoose.Schema({
 
 },{
 
-  bufferCommands: false,
-  autoCreate:false
+  bufferCommands: true,
+  autoCreate:true
 
 });
 
